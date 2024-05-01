@@ -2,4 +2,12 @@ body {
     background-image: url('background_image.jpeg');
     background-size: cover; 
     background-repeat: no-repeat;
+    background-position: center; 
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: contain; 
+    }
 }
